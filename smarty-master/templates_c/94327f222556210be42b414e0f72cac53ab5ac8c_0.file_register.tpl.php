@@ -1,7 +1,31 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 5.4.1, created on 2024-08-30 08:51:09
+  from 'file:register.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.1',
+  'unifunc' => 'content_66d187fd510e77_57226739',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '94327f222556210be42b414e0f72cac53ab5ac8c' => 
+    array (
+      0 => 'register.tpl',
+      1 => 1725005744,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_66d187fd510e77_57226739 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\Program Files\\Ampps\\www\\sapp\\smarty-master\\templates';
+?><!DOCTYPE html>
 <head>
 <title>Yiponline - Interview Task By Olubusayo Samuel Idebi(Software Engineer)</title>
-{literal}
+
 <style>
 header{
     position: fixed;
@@ -75,7 +99,7 @@ b{
     font-weight: bolder;
 }
 </style>
-{/literal}
+
 </head>
 <body>
     <header> <h3>Interview Task By Olubusayo Samuel Idebi(Software Engineer)</h3></header>
@@ -83,24 +107,30 @@ b{
         <fieldset>
             <legend>Registration Form</legend>
             <form action="" method="POST" enctype="multipart/form-data">
-                <span class="error_message">{$error_message}</span>
-                <span class="success_message">{$success_message}</span>
+                <span class="error_message"><?php echo $_smarty_tpl->getValue('error_message');?>
+</span>
+                <span class="success_message"><?php echo $_smarty_tpl->getValue('success_message');?>
+</span>
 
-                <div class="success">{$output_all}</div>
+                <div class="success"><?php echo $_smarty_tpl->getValue('output_all');?>
+</div>
 
                 <div class="filed">
                     <label class="label">Username</label>
-                    <input class="input" type="text" name="username" placeholder="Username" value="{$username}" />
+                    <input class="input" type="text" name="username" placeholder="Username" value="<?php echo $_smarty_tpl->getValue('username');?>
+" />
                 </div>
 
                 <div class="filed">
                     <label class="label">Email</label>
-                    <input class="input" type="text" name="email" placeholder="Email" value="{$email}" />
+                    <input class="input" type="text" name="email" placeholder="Email" value="<?php echo $_smarty_tpl->getValue('email');?>
+" />
                 </div>
 
                 <div class="filed">
                     <label class="label">Password</label>
-                    <input class="input" type="text" name="password" placeholder="Password" value="{$password}" />
+                    <input class="input" type="text" name="password" placeholder="Password" value="<?php echo $_smarty_tpl->getValue('password');?>
+" />
                 </div>
                 
                 <div class="filed">
@@ -111,4 +141,5 @@ b{
     </section>
     <footer></footer>
 </body>
-</html>
+</html><?php }
+}
