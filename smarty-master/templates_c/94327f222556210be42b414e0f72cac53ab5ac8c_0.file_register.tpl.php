@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.1, created on 2024-08-30 08:51:09
+/* Smarty version 5.4.1, created on 2024-08-30 09:00:28
   from 'file:register.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.1',
-  'unifunc' => 'content_66d187fd510e77_57226739',
+  'unifunc' => 'content_66d18a2c7545d4_93402759',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '94327f222556210be42b414e0f72cac53ab5ac8c' => 
     array (
       0 => 'register.tpl',
-      1 => 1725005744,
+      1 => 1725008403,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,12 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_66d187fd510e77_57226739 (\Smarty\Template $_smarty_tpl) {
+function content_66d18a2c7545d4_93402759 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\Program Files\\Ampps\\www\\sapp\\smarty-master\\templates';
 ?><!DOCTYPE html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Yiponline - Interview Task By Olubusayo Samuel Idebi(Software Engineer)</title>
 
 <style>
